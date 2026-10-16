@@ -1,0 +1,137 @@
+{
+  "title": "Himalayan Wilds",
+  "hook": "Build thriving Himalayan mountain settlements",
+  "game_overview": "Explore the Himalayan wilderness, track game, gather materials, and recruit specialists to transform a struggling mountain settlement into a thriving village.",
+  "artstyle": "cinematic",
+  "genre": "casual3d",
+  "winning_condition": "Restore the mountain pass, recruit all specialists, and construct a thriving Himalayan settlement across all 8 story chapters.",
+  "losing_condition": "Player health is completely depleted from predatory wildlife attacks or steep mountain falls.",
+  "player_mode": "single_player",
+  "supported_orientations": [
+    "landscape",
+    "wide"
+  ],
+  "input_methods": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "score_options": {
+    "score_type": "points",
+    "score_order": "higher_is_better"
+  },
+  "low_end_device_support": false,
+  "mobile_playable": true,
+  "language": [
+    "en"
+  ],
+  "content_descriptors": [],
+  "controls": [
+    {
+      "input": "W / A / S / D or Arrow Keys",
+      "action": "First-person walk and strafe locomotion through mountain sectors."
+    },
+    {
+      "input": "Mouse Movement / Touch Look Drag",
+      "action": "First-person pitch and yaw look controls."
+    },
+    {
+      "input": "Left Click / Action Button",
+      "action": "Shoot bow, swing harvest tool, or place building preview."
+    },
+    {
+      "input": "Right Click / Aim Button",
+      "action": "Draw bow and zoom view for precision animal tracking and hunting."
+    },
+    {
+      "input": "E Key / Interact Button",
+      "action": "Interact with NPCs, harvest felled deer, gather herbs/wood, and open chests."
+    },
+    {
+      "input": "Tab / I Key / Inventory Button",
+      "action": "Open unlimited-stack inventory, craft tools, and manage construction blueprints."
+    },
+    {
+      "input": "J Key / Journal Button",
+      "action": "View quest objectives, discovered animal tracks, and settlement progress."
+    },
+    {
+      "input": "M Key / Map Button",
+      "action": "Toggle regional exploration map and landmark markers."
+    },
+    {
+      "input": "B Key / Build Menu Button",
+      "action": "Toggle settlement construction mode to place modular timber and stone buildings."
+    },
+    {
+      "input": "Spacebar / Jump Button",
+      "action": "Leap over boulders, fallen logs, and river shallows."
+    },
+    {
+      "input": "Shift / Sprint Button",
+      "action": "Sprint across open valleys and mountain trails."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Design Pillars",
+      "content": "1. Grounded Preindustrial Atmosphere: Timber, slate, stone, woven fiber, and natural wilderness without fantasy magic or modern firearms. 2. Non-Metered Exploration: Deep gathering, hunting, crafting, and building mechanics without tedious hunger, thirst, or stamina meters. 3. Tangible Settlement Evolution: Every recruited NPC and constructed workshop visually transforms the village and unlocks real mechanical crafting and building capabilities.",
+      "summary": "Core creative principles of preindustrial Himalayan survival and village expansion."
+    },
+    {
+      "title": "Core Loop",
+      "content": "Explore Himalayan biomes (lower forest, river valley, upper conifers, alpine passes, abandoned ruins) -> Track and hunt deer, goral, and boar for pelts, hides, and bones -> Gather wood, river stone, fibers, and medicinal herbs with unlimited inventory stacks -> Return to the settlement to recruit specialists, craft advanced non-metal gear, and construct functional workshops -> Advance the 8-chapter main storyline to restore the mountain trail and build a thriving Himalayan village.",
+      "summary": "Moment-to-moment gameplay loop from wilderness exploration to settlement building."
+    },
+    {
+      "title": "Core Mechanics",
+      "content": "1. Wildlife AI & Dynamic Tracking: Deer and wildlife feature grazing, alert, fleeing, and drinking behaviors. Discoverable animal tracks and clues provide contextual hints for tracking herds. 2. Ranged Bow Hunting & Harvesting: Ballistic arrow physics, draw tension, and non-food harvesting (hides, sinew, bone, antlers). 3. Unlimited-Stack Inventory & Crafting: Frictionless resource management with tiered recipes unlocked through specialist recruits. 4. Grid & Freeform Settlement Construction: Place houses, workshops, storages, watchtowers, and bridges with collision and upgrade paths.",
+      "summary": "Hunting, tracking, gathering, crafting, and modular construction systems."
+    },
+    {
+      "title": "3D Camera & Movement Alignment",
+      "content": "Camera Perspective: First-person camera with smooth mouse-look and touch yaw/pitch control (FOV 75, height 1.6m). 3D Coordinate Convention: Standard Three.js right-handed coordinates (-Z is forward, +Y is up, +X is right). Movement Dynamics: Rapier character controller with slope navigation, step height, jump impulse, and smooth ground detection. Visual Alignment: First-person held bow/tools and all world assets face -Z standard forward.",
+      "summary": "First-person perspective with physics-driven spatial locomotion."
+    },
+    {
+      "title": "3D Scene & Environment Structure",
+      "content": "Environment: Rich terrain topography featuring rocky outcrops, pine and oak forests, rushing mountain river, abandoned stone settlements, and snow-dusted alpine ridges. Atmospheric Lighting: Dynamic sun arc with mountain haze, physically accurate ambient lighting (ambientIntensity >= 1.5, sunIntensity >= 3.0), and warm village hearthfires. Visual Separation: Distinctive timber and slate architecture clearly contrasts with wild pine vegetation and granite cliffs.",
+      "summary": "Connected Himalayan valleys with procedural terrain, dense foliage, and dynamic atmosphere."
+    },
+    {
+      "title": "Characters & Enemies",
+      "content": "NPC Specialists: Hunter (unlocks tracking & bows), Carpenter (unlocks timber houses & storage), Herbalist (unlocks medicinal recipes), Builder (unlocks stone structures & bridges), and Trader (resource exchanges). Wildlife: Himalayan Deer (grazing herds), Wild Boar (foraging), Mountain Goral (rocky crags), and rare Snow Leopards patrolling upper ridges.",
+      "summary": "Wildlife ecosystem and specialist settlement inhabitants."
+    },
+    {
+      "title": "Fairness Tools",
+      "content": "Compass HUD with quest objective markers, animal tracking scent trails, building placement validation bounding boxes with green/red indicator guides, and interactive map with discovered landmarks.",
+      "summary": "Assistance systems for wilderness navigation and construction."
+    },
+    {
+      "title": "Juice & Game Feel",
+      "content": "Anticipation Juice: Bow draw camera zoom, audio tension creak, and aim reticle focus. State Change Juice: Discovery fanfare when entering new regions or unlocking settlement tiers, plus day/night atmospheric transitions. Impact Juice: Arrow impact thuds, wood chopping particle bursts, and satisfying stone/timber settling audio upon building completion.",
+      "summary": "Tactile feedback for archery, gathering, and building."
+    },
+    {
+      "title": "Social Mechanics & Audience",
+      "content": "Designed for players who love deep open-world wilderness survival, atmospheric exploration, archery hunting, and settlement simulation games. Features persistent settlement milestones and discovery stats.",
+      "summary": "Target audience and singleplayer immersion features."
+    },
+    {
+      "title": "Accessibility",
+      "content": "Customizable mouse/touch look sensitivity, crosshair style options, high-contrast objective icons, scalable UI font sizes, and full keyboard/touch remapping.",
+      "summary": "Inclusive controls and visual adjustments."
+    },
+    {
+      "title": "Structural Integrity",
+      "content": "Main Menu -> Intro Narrative -> 8-Chapter Story Campaign with persistent settlement state -> Free Exploration End-Game. LocalStorage persistence for inventory, buildings, recruited NPCs, and quest completions.",
+      "summary": "Game states and progression persistence."
+    },
+    {
+      "title": "Virtual Touch Controls Implementation",
+      "content": "Conditionally rendered on mobile devices: Left Virtual Joystick for walking, right-hand Look Drag area, and dedicated action buttons for Jump, Interact, Attack/Shoot, Aim, Build, and Inventory. Configured with touch-none and pointer-events-auto on buttons.",
+      "summary": "Mandatory mobile touch HUD overlay."
+    }
+  ]
+}

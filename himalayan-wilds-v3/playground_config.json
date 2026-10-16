@@ -1,0 +1,86 @@
+{
+  "schema": [
+    {
+      "name": "playerSpeed",
+      "type": "number",
+      "label": "Walk Speed",
+      "default": 7.5,
+      "min": 4,
+      "max": 14,
+      "step": 0.5
+    },
+    {
+      "name": "sprintMultiplier",
+      "type": "number",
+      "label": "Sprint Multiplier",
+      "default": 1.7,
+      "min": 1.2,
+      "max": 2.5,
+      "step": 0.1
+    },
+    {
+      "name": "fov",
+      "type": "number",
+      "label": "Field of View",
+      "default": 75,
+      "min": 45,
+      "max": 100,
+      "step": 5
+    },
+    {
+      "name": "ambientIntensity",
+      "type": "number",
+      "label": "Ambient Light Intensity",
+      "default": 1.6,
+      "min": 0.5,
+      "max": 5,
+      "step": 0.1
+    },
+    {
+      "name": "sunIntensity",
+      "type": "number",
+      "label": "Sun Light Intensity",
+      "default": 3.5,
+      "min": 1.0,
+      "max": 10,
+      "step": 0.1
+    },
+    {
+      "name": "deerCount",
+      "type": "number",
+      "label": "Deer Population",
+      "default": 10,
+      "min": 4,
+      "max": 20,
+      "step": 1
+    },
+    {
+      "name": "defaultMusicVolume",
+      "type": "number",
+      "label": "Default Music Volume",
+      "default": 0.25,
+      "min": 0,
+      "max": 1,
+      "step": 0.05
+    },
+    {
+      "name": "defaultSfxVolume",
+      "type": "number",
+      "label": "Default SFX Volume",
+      "default": 0.6,
+      "min": 0,
+      "max": 1,
+      "step": 0.05
+    }
+  ],
+  "values": {
+    "playerSpeed": 7.5,
+    "sprintMultiplier": 1.7,
+    "fov": 75,
+    "ambientIntensity": 1.6,
+    "sunIntensity": 3.5,
+    "deerCount": 10,
+    "defaultMusicVolume": 0.25,
+    "defaultSfxVolume": 0.6
+  }
+}
